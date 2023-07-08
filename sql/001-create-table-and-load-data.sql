@@ -8,6 +8,6 @@ CREATE TABLE skiresort (
   PRIMARY KEY(id)
 );
 
-INSERT INTO skiresort (id, name, area, customerEvaluation) VALUES (1, "niseko", "hokkaido", "spacious and nice view");
-INSERT INTO skiresort (id, name, area, customerEvaluation) VALUES (2, "appi", "iwate","only Hakuba-sanzan can be seen");
-INSERT INTO skiresort (id, name, area, customerEvaluation) VALUES (3, "hakubahappoone", "nagano", "a slope with various courses");
+INSERT INTO skiresort (id, name, area, customerEvaluation) VALUES (1, "niseko", "hokkaido", "外国人が多い");
+INSERT INTO skiresort (id, name, area, customerEvaluation) VALUES (2, "appi", "iwate","コースがバラエティに富んでいる");
+INSERT INTO skiresort (id, name, area, customerEvaluation) VALUES (3, "hakubahappoone", "nagano", "唯一白馬三山が目の前で見られて絶景");

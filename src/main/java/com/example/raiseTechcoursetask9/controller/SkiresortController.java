@@ -1,6 +1,6 @@
 package com.example.raiseTechcoursetask9.controller;
 import com.example.raiseTechcoursetask9.entity.Skiresort;
-import com.example.raiseTechcoursetask9.response.SkiresortResponse;
+import com.example.raiseTechcoursetask9.controller.response.SkiresortResponse;
 import com.example.raiseTechcoursetask9.service.SkiresortService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,10 +19,14 @@ public class SkiresortController {
     }
 
     @GetMapping("/skiserots")
+//    public List<SkiresortResponse> getSkiresorts() {
+//        return skiresortService.findAll().stream().map(SkiresortResponse::new).toList();
+//    }
     public List<SkiresortResponse> skiresorts() {
+        // skiresortの情報を取得する
         List<Skiresort> skiresorts = skiresortService.findAll();
+        // 取得したskiresortの情報を、Response用のオブジェクトに変換する
         List<SkiresortResponse> skiresortResponses = skiresorts.stream().map(SkiresortResponse::new).toList();
-
         return skiresortResponses;
         }
 }

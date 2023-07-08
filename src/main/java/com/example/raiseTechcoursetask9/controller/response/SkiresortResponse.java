@@ -1,4 +1,4 @@
-package com.example.raiseTechcoursetask9.response;
+package com.example.raiseTechcoursetask9.controller.response;
 
 import com.example.raiseTechcoursetask9.entity.Skiresort;
 

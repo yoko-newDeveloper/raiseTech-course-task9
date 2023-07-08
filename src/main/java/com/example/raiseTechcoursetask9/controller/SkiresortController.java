@@ -19,9 +19,6 @@ public class SkiresortController {
     }
 
     @GetMapping("/skiserots")
-//    public List<SkiresortResponse> getSkiresorts() {
-//        return skiresortService.findAll().stream().map(SkiresortResponse::new).toList();
-//    }
     public List<SkiresortResponse> skiresorts() {
         // skiresortの情報を取得する
         List<Skiresort> skiresorts = skiresortService.findAll();

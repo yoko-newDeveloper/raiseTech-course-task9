@@ -10,4 +10,4 @@ CREATE TABLE skiresort (
 
 INSERT INTO skiresort (id, name, area, customerEvaluation) VALUES (1, "niseko", "hokkaido", "外国人が多い");
 INSERT INTO skiresort (id, name, area, customerEvaluation) VALUES (2, "appi", "iwate","コースがバラエティに富んでいる");
-INSERT INTO skiresort (id, name, area, customerEvaluation) VALUES (3, "hakubahappoone", "nagano", "唯一白馬三山が目の前で見られて絶景");
+INSERT INTO skiresort (id, name, area, customerEvaluation) VALUES (3, "hakuiwatake", "nagano", "唯一白馬三山が目の前で見られて絶景");
